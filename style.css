@@ -1,0 +1,108 @@
+     
+       
+      .box {
+      font-family: "Merriweather", serif;
+      font-weight: 400;
+      font-style: normal;
+        
+      width: 100px;
+      height: 40px;
+      animation: slide 3s infinite alternate;
+      }
+      @keyframes slide {
+      0% {
+      transform: translateX(0);
+      }
+      50% {
+      transform: translateX(50%);
+      }
+      100% {
+      transform: translateX(100%);
+      }
+      }
+      
+              @keyframes myAnimation {
+            0% { opacity: 0; }
+            50% { opacity: 1; }
+            100% { opacity: 0; }
+          }
+          
+          .textanime {
+            margin-left: 20px;
+            animation: myAnimation 3s infinite;
+            font-family: "Poppins", sans-serif;
+            font-weight: 300;
+            font-style: italic;
+          }
+          .example{
+        background-color: blue;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        cursor: pointer;
+        transition: background-color 3s;
+      }
+       
+      .example:hover {
+        background-color: red;
+        animation: change-color 1s infinite;
+      }
+       
+      @keyframes change-color {
+        0%{
+          background-color: red;
+        }
+        50% {
+          background-color: purple;
+        }
+        100%{
+          background-color: red;
+        }
+      
+      }
+      
+      @media screen and (min-width: 400px) and (max-width: 500px) 
+      { .container{
+        width: 100%;
+        float: left;
+        
+      }
+      
+      }
+      
+      @media screen and (min-width: 1280px) 
+      { .container{
+        width: 100%;
+        float: left;
+        
+      }
+      
+      }
+      .navbar-brand{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+      
+      .dropdown-item{
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+      
+      .card-text{
+        font-family: "Merriweather", serif;
+        font-weight: 200;
+        font-style: normal;
+      }
+      
+      .jumbotron{
+        font-family: "Lato", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+      
